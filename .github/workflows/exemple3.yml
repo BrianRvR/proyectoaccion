@@ -1,4 +1,4 @@
-name: Exemple 3. Cache Dependencies
+name: 'Exemple 3. Cache Dependencies'
 
 on:
   push:
@@ -15,10 +15,10 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: '20.2.0'
 
       - name: Cache dependencies
-        uses: actions/cache@v1.2.1 #última versión
+        uses: actions/cache@v1.2.1
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
