@@ -1,0 +1,20 @@
+name: Exemple 1. Add to project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.5.0 #puse la ultima version de ese repositorio
+        with:
+          # You can target a project in a different organization
+          # to the issue
+          project-url: https://github.com/users/BrianRvR/projects/3  # numero de proyecto
+          github-token: ${{ secrets.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 }}  # ponemos la clave
+          labeled: bug, needs-triage
+          label-operator: OR
