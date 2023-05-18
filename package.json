@@ -1,0 +1,26 @@
+{
+  "name": "proyectoaccion",
+  "version": "1.0.0",
+  "description": "Mi repositorio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianRvR/proyectoaccion.git"
+  },
+  "keywords": [
+    "proyectoaccion",
+    "ejemplo",
+    "keywords",
+    "paquete",
+    "npm"
+  ],
+  "author": "BrianRvR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianRvR/proyectoaccion/issues"
+  },
+  "homepage": "https://github.com/BrianRvR/proyectoaccion#readme"
+}
